@@ -50,7 +50,7 @@ const projectInfo = [
     id: 5,
     title: "Arcade Game",
     techStack: "Pure JavaScript",
-    details: "Frogger Arcade is a variation of the classic Frogger arcade game.Use your keyboard to play!",
+    details: "Frogger Arcade is a variation of the classic Frogger arcade game. Use your keyboard to play!",
     img1: "img/arcgame.png",
     img2: "img/arcgame-2.png",
     url: "https://chaonanlin.github.io/Arcade-game/"

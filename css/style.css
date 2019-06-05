@@ -307,6 +307,9 @@ body {
     @media (max-width: 56.25em) {
       .card__overlay {
         padding: 8rem 0; } }
+    @media (max-width: 37.5em) {
+      .card__overlay {
+        padding: 6rem 0; } }
     .card__overlay__title {
       color: #072f5f;
       font-size: 2rem;
@@ -314,6 +317,9 @@ body {
       @media (max-width: 56.25em) {
         .card__overlay__title {
           font-size: 3rem; } }
+      @media (max-width: 37.5em) {
+        .card__overlay__title {
+          font-size: 2.5rem; } }
     .card__overlay__subTitle {
       color: #777;
       font-size: 2rem;
@@ -323,6 +329,9 @@ body {
       @media (max-width: 56.25em) {
         .card__overlay__subTitle {
           font-size: 3rem; } }
+      @media (max-width: 37.5em) {
+        .card__overlay__subTitle {
+          font-size: 2.5rem; } }
     .card__overlay__button {
       padding: 1rem;
       font-size: 1.4rem;
@@ -337,6 +346,9 @@ body {
           width: 40%;
           padding: 1.2rem;
           font-size: 2rem; } }
+      @media (max-width: 37.5em) {
+        .card__overlay__button {
+          font-size: 1.6rem; } }
   .card:hover .card__overlay {
     opacity: 1; }
     .card:hover .card__overlay__title {
@@ -406,6 +418,9 @@ body {
     cursor: pointer; }
     .popup__close:hover {
       color: #3895d3; }
+    @media (max-width: 37.5em) {
+      .popup__close {
+        color: #3895d3; } }
   .popup__img {
     display: block;
     width: 100%; }
@@ -433,10 +448,18 @@ body {
     position: absolute;
     top: 10rem;
     left: 4rem; }
+    @media (max-width: 37.5em) {
+      .header__social-box-1 {
+        top: 2rem;
+        left: 4rem; } }
   .header__social-box-2 {
     position: absolute;
     top: 18rem;
     left: 4rem; }
+    @media (max-width: 37.5em) {
+      .header__social-box-2 {
+        top: 2rem;
+        left: 12rem; } }
   .header__icon {
     height: 3.5rem; }
   .header__text-box {
@@ -507,8 +530,7 @@ body {
   margin-bottom: -25vh; }
   @media (max-width: 56.25em) {
     .section-about {
-      margin-bottom: -15vh;
-      padding: 15rem 0; } }
+      margin-bottom: -20vh; } }
 
 .section-projects {
   padding: 20rem 0 20rem 0;

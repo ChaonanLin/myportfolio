@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ChaonanLin/Natour_CSSPractice#readme",
   "dependencies": {
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.11.0",
+    "tar": "^4.4.10"
   }
 }

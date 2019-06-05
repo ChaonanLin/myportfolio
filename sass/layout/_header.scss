@@ -21,12 +21,23 @@
     position: absolute;
     top: 10rem;
     left: 4rem;
+
+    @include respond(phone) {
+        top: 2rem;
+        left: 4rem;
+    }
+
   }
 
   &__social-box-2 {
     position: absolute;
     top: 18rem;
     left: 4rem;
+
+    @include respond(phone) {
+        top: 2rem;
+        left: 12rem;
+    }
   }
 
   &__icon {

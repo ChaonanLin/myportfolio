@@ -70,6 +70,10 @@
     &:hover {
       color: $color-primary;
     }
+
+    @include respond(phone) {
+      color: $color-primary;
+    }
   }
 
   &__img {
