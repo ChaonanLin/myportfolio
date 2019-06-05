@@ -1,17 +1,25 @@
 //COLOR
+// $color-primary:#55c57a;
+// $color-primary-light:#7ed56f;
+// $color-primary-dark:#28b485;
 
-$color-primary:#55c57a;
-$color-primary-light:#7ed56f;
-$color-primary-dark:#28b485;
-$color-grey-dark:#777;
-$color-white:#fff;
-$color-black:#000;
-$color-grey-light-1:#f7f7f7;
+$color-primary: #3895d3;
+$color-primary-light: #58cced;
+$color-primary-dark: #072f5f;
+
+// $color-secondary-light: #58cced;
+// $color-secondary-dark: #072f5f;
+
+$color-grey-dark: #777;
+$color-white: #fff;
+$color-black: #000;
+$color-grey-light-1: #f7f7f7;
 
 //FONT
-$default-font-size:1.6rem;
+$default-font-size: 1.6rem;
 
 //GRID
-$grid-width:114rem;
-$gutter-vertical:8rem;
-$gutter-horizontal:6rem;
+$grid-width: 107rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small:6rem;
+$gutter-horizontal: 6rem;

@@ -13,63 +13,245 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
-    <title>Natours | Exciting tours for adventurous people</title>
+    <title>Welcome to My Portfolio Site</title>
   </head>
   <body>
     <header class="header">
-      <div class="header__logo-box">
-        <img src="img/logo-white.png" alt="Logo" class="header__logo" />
+      <div class="header__social-box-1">
+        <a href="https://www.linkedin.com/in/chaonan-lin/">
+          <img
+            src="img/LinkedIn-Logo-White.png"
+            alt="linkedin"
+            class="header__icon"
+          />
+        </a>
+      </div>
+      <div class="header__social-box-2">
+        <a href="https://github.com/ChaonanLin">
+          <img
+            src="img/GitHub-Mark-White.png"
+            alt="github"
+            class="header__icon"
+          />
+        </a>
       </div>
       <div class="header__text-box">
         <h1 class="heading-primary">
-          <span class="heading-primary--main">OUTDOORS</span>
-          <span class="heading-primary--sub">is where lift happens</span>
+          <span class="heading-primary--main">Hello, I am Chaonan Lin.</span>
+          <span class="heading-primary--sub"
+            >I'm a Front-end web developer.</span
+          >
         </h1>
-        <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+        <a href="#section-projects" class="btn btn--white btn--animated"
+          >View My Work</a
+        >
       </div>
     </header>
     <main>
       <section class="section-about">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">
-            Exciting tours for adventurous people
+            About Me
           </h2>
         </div>
         <div class="row">
           <div class="col-1-of-2">
-            <h3 class="heading-tertiary u-margin-bottom-small">
-              You're going to fall in love with nature.
+            <h3 class="heading-tertiary--blue u-margin-bottom-small">
+              Who am I?
             </h3>
             <p class="paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit
-              sit, necessitatibus neque perspiciatis aut dignissimos sequi ea
-              magnam, labore maxime sunt suscipit porro itaque consectetur earum
-              rem soluta saepe provident.
+              I am a Front-end developer who loves programming, traveling,
+              gardening and drinking Boba Tea. I find happiness in being a
+              better me today than the me yesterday.
             </p>
-
-            <h3 class="heading-tertiary u-margin-bottom-small">
-              Live advantures like you never have before
+            <h3 class="heading-tertiary--blue u-margin-bottom-small">
+              See what I can do:
             </h3>
-            <p class="paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Repellendus quidem ab exercitationem expedita quasi itaque,
-              inventore ullam ut cum tenetur.
-            </p>
-
-            <a href="#" class="btn-text">
-                Learn more &rarr;
-            </a>
+            <ul class="paragraph">
+              <li class="paragraph__list">
+                <span class="paragraph--highlight"> Front-end:</span>
+                JavaScript (ES6), React, Redux, Angular, Apollo client,
+                Material-UI, HTML, SCSS, CSS
+              </li>
+              <li class="paragraph__list">
+                <span class="paragraph--highlight">
+                  Back-end / Databases / Middleware:</span
+                >
+                Node.js, MongoDB, MySQL, Mongoose, Express
+              </li>
+              <li class="paragraph__list">
+                <span class="paragraph--highlight">
+                  Design and Product Management:</span
+                >
+                Photoshop, Illustrator, Sketch, User Persona, User Testing,
+                Feature Prioritization
+              </li>
+              <li class="paragraph__list">
+                <span class="paragraph--highlight">Other:</span> Git, GitHub,
+                GraphQL, SQL, ArcGIS
+              </li>
+            </ul>
           </div>
           <div class="col-1-of-2">
-              <div class="composition">
-                  <img src="img/nat-1-large.jpg" alt="photo 1" class="composition__photo composition__photo--p1">
-                  <img src="img/nat-2-large.jpg" alt="photo 2" class="composition__photo composition__photo--p2">
-                  <img src="img/nat-3-large.jpg" alt="photo 3" class="composition__photo composition__photo--p3">
-              </div>
+            <div class="composition">
+              <img
+                src="img/Chaonan-1.jpg"
+                alt="photo 1"
+                class="composition__photo composition__photo--p1"
+              />
+              <img
+                src="img/Chaonan-2.jpg"
+                alt="photo 2"
+                class="composition__photo composition__photo--p2"
+              />
+            </div>
           </div>
         </div>
       </section>
+      <section class="section-projects" id="section-projects">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary--white">
+            Projects
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <img
+                src="img/BankAccountUi.png"
+                alt="Project Image"
+                class="card__image"
+              />
+              <div class="card__overlay">
+                <div class="card__overlay__title">Bank Acount UI</div>
+                <div class="card__overlay__subTitle">React/Redux</div>
+                <div class="card__overlay__button" id="0">
+                  Learn More
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <img
+                src="img/Boba&FriedChicken.png"
+                alt="Project Image"
+                class="card__image"
+              />
+              <div class="card__overlay">
+                <div class="card__overlay__title">React Neighborhood Map</div>
+                <div class="card__overlay__subTitle">React/GoogleMap API</div>
+                <div class="card__overlay__button" id="1">
+                  Learn More
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <img
+                src="img/EMI-calc.png"
+                alt="Project Image"
+                class="card__image"
+              />
+              <div class="card__overlay">
+                <div class="card__overlay__title">EMI calculator</div>
+                <div class="card__overlay__subTitle">React</div>
+                <div class="card__overlay__button" id="2">
+                  Learn More
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <img
+                src="img/memorygame.png"
+                alt="Project Image"
+                class="card__image"
+              />
+              <div class="card__overlay">
+                <div class="card__overlay__title">Memory Game</div>
+                <div class="card__overlay__subTitle">Pure JavaScript</div>
+                <div class="card__overlay__button" id="3">
+                  Learn More
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <img
+                src="img/myReads.png"
+                alt="Project Image"
+                class="card__image"
+              />
+              <div class="card__overlay">
+                <div class="card__overlay__title">My Reads</div>
+                <div class="card__overlay__subTitle">React</div>
+                <div class="card__overlay__button" id="4">
+                  Learn More
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <img
+                src="img/arcgame.png"
+                alt="Project Image"
+                class="card__image"
+              />
+              <div class="card__overlay">
+                <div class="card__overlay__title">Arcade Game</div>
+                <div class="card__overlay__subTitle">Pure JavaScript</div>
+                <div class="card__overlay__button" id="5">
+                  Learn More
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="popup">
+        <div class="popup__content">
+          <div class="popup__left">
+            <img src="img/nat-8.jpg" alt="project images" class="popup__img" />
+            <img src="img/nat-9.jpg" alt="project images" class="popup__img" />
+          </div>
+          <div class="popup__right">
+            <div class="popup__close">&times</div>
+            <h2 class="heading-secondary">Bank Account UI</h2>
+            <h3 class="heading-tertiary u-margin-bottom-small">Content here</h3>
+            <p class="popup__text">Project intro text</p>
+            <a href="" class="btn btn--blue" target="_blank">See Demo</a>
+          </div>
+        </div>
+      </div>
     </main>
+    <footer class="footer">
+      <div class="footer__social-box-1">
+        <a href="https://www.linkedin.com/in/chaonan-lin/">
+          <img
+            src="img/LinkedIn-Logo-White.png"
+            alt="linkedin"
+            class="header__icon"
+          />
+        </a>
+      </div>
+      <div class="footer__social-box-2">
+        <a href="https://github.com/ChaonanLin">
+          <img
+            src="img/GitHub-Mark-White.png"
+            alt="github"
+            class="header__icon"
+          />
+        </a>
+      </div>
+      <p class="footer_copyright">Chaonan Lin &#169;2019</p>
+    </footer>
     <!--
       <section class="grid-test">
           <div class="row">
@@ -94,4 +276,5 @@
       </section>
     -->
   </body>
+  <script src="index.js"></script>
 </html>
