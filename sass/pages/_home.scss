@@ -20,6 +20,7 @@
   background-size: auto;
 
   clip-path: polygon(0 25vh, 100% 0, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 25vh, 100% 0, 100% 100%, 0 100%);
 
   @include respond(tab-port) {
     clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
