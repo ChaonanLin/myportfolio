@@ -12,9 +12,15 @@
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
+  @include respond(tab-port) {
+    height: 70vh;
+    clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
+  }
+
   @include respond(phone) {
-    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 100%);
   }
 
   &__social-box-1 {
@@ -23,10 +29,8 @@
     left: 4rem;
 
     @include respond(phone) {
-        top: 2rem;
-        left: 4rem;
+      display: none;
     }
-
   }
 
   &__social-box-2 {
@@ -35,8 +39,7 @@
     left: 4rem;
 
     @include respond(phone) {
-        top: 2rem;
-        left: 12rem;
+      display: none;
     }
   }
 
